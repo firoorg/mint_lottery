@@ -86,6 +86,7 @@ class MintLottery:
         self.mintStats = {}
         self.firoCli = os.path.join(firoCliPath, "firo-cli")
         self.txs = 0
+# The following addresses are excluded because of their involvement in the recent ValueDeFi hack        
         self.usedAddrs = {
             "aDFpcLgCavmY4H27xxKHw7AwEq5PoNTk3Z",
             "aHifKFgNh6Z3cPUznZu8zm15esXDquGrTo",
